@@ -33,8 +33,8 @@ def write_csv_file(entries, output_csv):
             writer.writerow(row)
 
 # Nom du fichier .bib d'entrée et du fichier .csv de sortie
-input_bib_file = '../dataset/export.bib'
-output_csv_file = '../dataset/dataset.csv'
+input_bib_file = './dataset/export.bib'
+output_csv_file = './dataset/dataset.csv'
 
 # Lire le fichier .bib, puis l'écrire dans le fichier .csv
 entries = read_bib_file(input_bib_file)
